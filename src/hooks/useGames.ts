@@ -5,9 +5,10 @@ import {IPlatform} from './usePlatforms'
 export interface IGame {
   id: number;
   name: string;
-	background_image: string
-	parent_platforms: { platform: IPlatform }[] 
-  metacritic: number
+	background_image: string;
+	parent_platforms: { platform: IPlatform }[];
+  metacritic: number;
+  rating_top: number;
 }
 
 const useGames = (gameQuery: GameQuery) => {

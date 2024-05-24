@@ -1,4 +1,4 @@
-import { IPlatform } from "../entities/IPlatform";
+import IPlatform from "../entities/IPlatform";
 import { HStack, Icon } from "@chakra-ui/react";
 import {
   FaWindows,

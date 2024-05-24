@@ -1,4 +1,4 @@
-export interface ITrailer {
+export default interface ITrailer {
   id: number;
   name: string;
   preview: string;

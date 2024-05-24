@@ -1,8 +1,8 @@
-import { IGenre } from "./IGenre";
-import { IPlatform } from "./IPlatform";
-import { Publisher } from "./IPublisher";
+import IGenre from "./IGenre";
+import IPlatform from "./IPlatform";
+import Publisher from "./IPublisher";
 
-export interface IGame {
+export default interface IGame {
   id: number;
   name: string;
   slug: string;
